@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script  type="text/javascript" src="site.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        
+        <script type="text/javascript" src="jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+            $("#mapT").hover(function(){
+                alert("Ashfeld is the Knights territory!");
+            }); 
+            });
+        </script>
+    </head>
+<body>
+        
+    <div id="All">
+        <div id="col1">
+            <img class="logo1" src="Knight_Symbol.png"> 
+            <h1 style="padding-left: 20px;">Important characters</h1>
+            
+            <p class ="txtBtn" type="button" style="border:none;" onclick="loadApollyon()"><u>Apollyon</u></p>
+            <p class ="txtBtn" type="button" style="border:none;" onclick="loadHolden()"><u>Holden Cross</u></p>
+            <p class ="txtBtn" type="button" style="border:none;" onclick="loadHervis()"><u>Hervis Daubeny</u></p>
+            
+        </div>
+
+        <div id="wrap">
+            <div class = "swordContainer">
+                <div>
+                    <img id="sword1"src="sword.png">
+                </div>
+        
+                <div>
+                    <img id = "FH" src="forHonor.png">
+                </div>
+        
+                <div>
+                    <img id="sword2"src="sword.png">
+                </div> 
+            </div>  
+        
+            <div id="content">
+                <h1 class="titulo">Knight Faction</h1>
+                <p>The Knights believe that many, if not all, of the ancient ruins that cover these lands were built by their ancestors. Scattered for centuries, 
+                    todays Knights have begun at last to gather again under a single banner: that of the Iron Legion. But in this age, that name is more of an ideal than an actual entity, 
+                    as local warlords still are defiant and rise up to form their own Legions, and alliances under the Iron Legions banner are only loosely held.</p>
+        
+                <p>Though seen as a single group, the Knights are hardly unified. There are many Legions in Ashfeld, the most prominent being The Iron Legion. Each Legion is an independent army that serves to protect and rule over a specific area, 
+                    usually around their largest fortress or Sanctuary. Each Legion has its own Circle - a group of highly ranked individuals who serve as advisors for the Legion and their warlords.
+                    For Knights, honor and duty go hand-in-hand. Oaths were not lightly broken and many knights serve warlords they do not look highly upon. Honor was not tied to imprisonment as doing so was considered an 
+                    act of mercy.</p>   
+                
+                <h1 class="titulo" id = "mapT">World map</h1>
+                <div class="thumbnail">   
+                    <a href="Map.png" target="_blank">
+                        <img class = "map" style="margin-left: 50px;" src="Map.png">
+                    </a>
+                </div>
+               
+            </div>
+        </div>
+    
+        <div id="col2">
+            <img class="logo1" src="Knight_Symbol.png"> 
+            <h1 style="padding-left: 40px;">Meet the heroes</h1>
+
+            <p class ="txtBtn" type="button" style="border:none;" onclick="loadWarden()"><u>Warden</u></p>
+            <p class ="txtBtn" type="button" style="border:none;" onclick="loadPK()"><u>Peacekeeper</u></p>
+            <p class ="txtBtn" type="button" style="border:none;" onclick="loadConq()"><u>Conqueror</u></p>
+            <p class ="txtBtn" type="button" style="border:none;" onclick="loadLB()"><u>Lawbringer</u></p>
+        </div>
+    </div>
+</body>
+</html>

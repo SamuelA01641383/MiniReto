@@ -1,0 +1,114 @@
+body{
+   
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#FH{
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sword1{
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 300px;
+    height: 150px;
+    display: block;
+}
+
+#sword2{
+    margin-top: 60px;
+    width: 300px;
+    height: 150px;
+    display: block;
+    transform: rotate(-0.36turn);
+}
+
+#wrap { 
+    float: left;
+    width: 70%; 
+    margin: 40px auto; 
+    padding: 0; background:#E6CDA5 
+    url(Medieval-images/bg18.jpg) repeat; 
+    color: #000; }
+
+.swordContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+h2{
+    font-family: fantasy;
+}
+
+p{
+    font-family: serif;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.titulo{
+    font-size: 50px;
+    color: gold;
+    margin: auto;
+    text-align: center;
+}
+
+#All:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#col1{
+    float: left;
+    width: 12%;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background:#E6CDA5;
+}
+
+#col2{
+    float: left;
+    width: 12%;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background:#E6CDA5;
+}
+
+.logo1{
+    margin-left: -10px;
+}
+
+.txtBtn:hover{
+    background-color: gold;
+}
+.txtBtn{
+    color: blue;
+}
+
+.personajes{
+    margin-top: 40px;
+    height: auto;
+    width: 350px;
+}
+
+
+.map{
+    transition: all 0.3s;
+}
+.map:hover{
+    transform: scale(1.15);
+
+}
